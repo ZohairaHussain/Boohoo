@@ -1,0 +1,145 @@
+@font-face {
+    font-family: ThisMyNewFont;
+    src: url('fonts/Admiration_Pains.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    padding: 0px !important;
+    margin: opx !important;
+}
+.row , .col , .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    margin: 0px !important;
+    padding: 0pc !important;
+}
+.pink{
+    background-color: pink;
+}
+.sale > p{
+    text-align: center;
+    font-size: 14px;
+    color: brown;
+    padding: 6px 0px;
+    margin-bottom: 0px;
+}
+.black{
+    background-color: white;
+}
+.catigery{
+    color: white;
+}
+.catigery > ul{
+    padding-top: 28px;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+.catigery > ul > li {
+    float: left;
+    margin: 0 12px
+}
+.catigery > ul > li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.catigery > ul > li a:hover{
+    text-decoration: none;
+}
+.title{
+
+}
+.title > a{
+    color: black;
+    text-decoration: none;
+}
+.title > a > h1{
+    text-align: center;
+    font-size: 50px;
+}
+.nav{
+    float: right;
+    padding-right: 10px;
+} 
+.nav > ul{
+    list-style-type: none;
+    float: right !important;
+    padding-top: 28px;
+    margin-bottom: 0px;
+}
+.nav > ul > li {
+    float: left;
+    margin-left: 15px;
+}
+.nav > ul > li a{
+    color: black;
+}
+.nav > ul > li a > i{
+    font-size: 25px;
+}
+.red{
+    background-color: red;
+}
+._slider{
+    margin-top: 20px;
+}
+._video{
+    margin-top: 20px;
+}
+._price{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.newin{
+    /* margin-top: 100px; */
+    text-align: center;
+    font-size: 25px;
+}
+.shop{
+    margin-top: 20px;
+}
+.shop a{
+    text-decoration: none;
+}
+.shopnow{
+    background-color:#91b8fa;
+    color: white;
+    margin: 0 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0.5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.footer{
+    padding: 80px 0;
+    margin: 15px;
+}
+.footer h5{
+    font-size: 18px;
+}
+.footer > ul{
+    margin-top: 25px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 10px;
+}
+.footer > ul > li{
+    line-height: 35px;
+}
+.footer > ul > li > a{
+    text-decoration: none;
+    color: black;
+}
+.align{
+    text-align: right;
+}
+.gray{
+    background-color: lightgrey;
+}
+.navtab > .nav .nav-item  a{
+    color: balck;
+
+}
